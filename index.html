@@ -1,20 +1,980 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>Under Construction</title>
-</head>
-<body>
-<br><br><br><br><br><br><br>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-<tr>
-<td align="center">
-<h1 style="margin:0;padding:0;font-family: trebuchet ms;">This Website is Under Construction.
-<br><small style="color: #888;" align="center">Come Back Soon.</small>
-</h1>
-</td>
-</tr>
-</table>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MVR3D 2017 Landing Page</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!--== CSS Files ==-->
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+		<link href="css/style.css" rel="stylesheet" media="screen">
+		<link href="css/animate.min.css" rel="stylesheet" media="screen">
+		<link href="css/font-awesome.css" rel="stylesheet" media="screen">
+		<link href="css/flexslider.css" rel="stylesheet" media="screen">
+		<link href="css/fancySelect.css" rel="stylesheet" media="screen">
+		<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+		<link href="css/responsive.css" rel="stylesheet" media="screen">
+
+		<!--== Google Fonts ==-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="home"></div>
+		<header id="header" class="header" data-stellar-ratio="0.5">
+
+			<!--== Preloader ==-->
+			<div id="preloader"><div class="preloader"></div></div>
+
+			<!--== Caption ==-->
+			<div class="header-caption" data-stellar-ratio="2">
+				<div class="container">
+					<div class="box">
+						<!--<h2w>Multiview Relationships in 3D Data<br/></h2w><h3w>In Conjunction with ICCV 2017<br/></h3w>-->
+                        <h2w>In Conjunction with ICCV 2017<br/></h2w>
+						<span class="typed"></span>
+					</div>
+				</div>
+			</div>
+
+			<!--== Header Background ==-->
+			<div id="header-background" class="header-background">
+				<ul class="slides">
+                    <li><img src="images/demo/white_logo_color_background_small.jpg" alt="Slide 1"></li>
+                    <!--<li><img src="images/demo/bg-slide-02.jpg" alt="Slide 2"></li>-->
+				</ul>
+			</div>
+
+		</header>
+
+		<div id="navigation-wrap" class="navigation-wrap">
+			<div id="navigation" class="navigation">
+				<div class="container">
+					<nav class="navbar navbar-custom" role="navigation">
+
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+
+						<!--== Site Menu ==-->
+						<div class="collapse navbar-collapse" id="menu">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#home">Home</a></li>
+								<li><a href="#schedule">Schedule</a></li>
+								<li><a href="#speakers">Speakers</a></li>
+								<li>
+									<a href="#partners">Sponsors</a>
+								</li>
+								<li><a href="#faq">FAQ</a></li>
+								<li><a href="#news">News</a></li>
+								<li><a href="#location">Location</a></li>
+							</ul>
+						</div>
+
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="container content">
+
+
+
+			<!--===============================-->
+			<!--== About ======================-->
+			<!--===============================-->
+			<section id="about">
+				<div class="row">
+					<div class="col-sm-12 col-md-2">
+						<div class="section-header text-left">
+                            <img src="images/demo/dark_logo_transparent_background_small.png" alt="Small Logo">
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<!--<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>-->
+						<p>The recent improvements in the 3D sensing technologies have caused a remarkable amplification in the utilization of 3D data. 3D information has found tremendous use in Autonomous Driving, 3D Mapping, Quality Control, Drones and UAVs or Robot Guidance to name but a few applicative domains. These applications typically fuse different modalities such as range images, stereo triangulations, structure-from-motion reconstructions or laser scans. A common flexible representation governing all these are point clouds. Thus, in many of the applications that rely on multiple 3D acquisitions, good registration of point clouds is a prerequisite. Yet, when unstructured dense scans of large scenes are of concern, establishing the alignment in a fully automatic manner is far from being trivial --  a difficulty that is exacerbated when the scans in question are allowed to undergo locally non-rigid deformations due to miscalibration of the capturing device or object movement.
+<p></p>In such a complex scenario, researchers are now taking on the challenge of accurately auto-stitching tens of millions of unstructured/structured points that include symmetries, self-similarities and that do not admit scan-order constraints. This workshop will be dedicated to exploring the theoretical and practical aspects of obtaining multi-view global alignment and registration of scans captured by any 3D data modality. Our main objective is to gather together industry experts, academic researchers, and practitioners of 3D data acquisition and scene reconstruction into a lively environment for discussing methodologies and challenges raised by the emergence of large-scale 3D reconstruction applications; as a targeted topic venue, this workshop will offer participants a unique opportunity to network with a diverse but focused research community.</p>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<div class="number wow bounceIn" data-wow-duration="0.8s" data-wow-delay="0.5s">
+							<b class="accent">8</b>
+							Speakers
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<div class="number wow bounceIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
+							<b class="accent">1</b>
+							Day
+						</div>
+					</div>
+				</div>
+			</section>
+            <section id="callforpapers">
+				<div class="row">
+                    <div class="col-sm-12 col-md-2">
+						<div class="section-header text-left">
+							<h2><b>Call for Papers</b></h2>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<!--<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>-->
+						The goal of this workshop is to push the frontier in the area of global multi-scan alignment. Focal points for discussions and solicited submissions include but are not limited to:
+                        <ul style="list-style-type:none">
+                        <li> Global point cloud alignment</li>
+                        <li> Multiview registration using scene priors</li>
+                        <li> Learning methods for multiview correspondence estimation</li>
+                        <li> 3D Object reconstruction from multiple views</li>
+                        <li> Joint registration and segmentation of multiple scans</li>
+                        <li> Joint matching of multiple non-rigid surfaces</li>
+                        <li> Multiview object detection</li>
+                        <li> Multi-object Instance reconstruction</li>
+                        <li> Feature descriptors for multiview 3D matching</li>
+                        <li> Multiview pose estimation</li>
+                        <li> Joint processing of multiple point clouds</li>
+                        <li> Pose averaging and error diffusion on graphs</li>
+                        <li> Multiview stitching of 3D scans on mobile and embedded devices</li>
+                        <li> Practical applications of multiple scan registration on large scale settings</li>
+                        <li> Datasets and dataset methods for ground truth acquisition</li>
+</ul>
+                        Besides monetary compensations, the <b>best contribution</b> will be awarded a RealSense camera, sponsored by Intel.
+
+					</div>
+                </div>
+			</section>
+			<!--==========-->
+        <section id="callforpapers">
+				<div class="row">
+                    <div class="col-sm-12 col-md-2">
+						<div class="section-header text-left">
+							<h2><b>Dates</b></h2>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<!--<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>-->
+                        <ul style="list-style-type:none">
+                            <div class="divTable">
+                            <div class="divTableBody">
+                            <div class="divTableRow">
+                            <div class="divTableCell"><h4table>Paper Submission: </h4table></div>
+                            <div class="divTableCell"><h4table><lti><b>July 24, 2017</b></lti> </h4table></div>
+                            </div>
+                            <div class="divTableRow">
+                            <div class="divTableCell"><h4table>Notification of acceptance </h4table></div>
+                            <div class="divTableCell"><h4table><lti><b>August 18, 2017</b></lti> </h4table></div>
+                            </div>
+                            <div class="divTableRow">
+                            <div class="divTableCell"><h4table>Workshop Date</h4table></div>
+                            <div class="divTableCell"><h4table><lti><b>October 28, 2017</b></lti> </h4table></div>
+                            </div>
+                            </div>
+                            </div>
+</ul>
+                        <div class="row">
+					<div class="col-sm-12">
+                            <p>* With these days, we hope to allow a sufficient time slot for re-submission of the unlucky ICCV papers.</p>
+                            </div>
+                            </div>
+					</div>
+                </div>
+			</section>
+        
+         <section id="callforpapers">
+				<div class="row">
+                    <div class="col-sm-12 col-md-2">
+						<div class="section-header text-left">
+							<h2><b>Awards</b></h2>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<!--<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>-->
+                        <ul style="list-style-type:none">
+                            <div class="divTable">
+                            <div class="divTableBody">
+                            <div class="divTableRow">
+                            <div class="divTableCell"><h4table>Paper Submission: </h4table></div>
+                            <div class="divTableCell"><h4table><lti><b>July 24, 2017</b></lti> </h4table></div>
+                            </div>
+                            <div class="divTableRow">
+                            <div class="divTableCell"><h4table>Notification of acceptance </h4table></div>
+                            <div class="divTableCell"><h4table><lti><b>August 18, 2017</b></lti> </h4table></div>
+                            </div>
+                            <div class="divTableRow">
+                            <div class="divTableCell"><h4table>Workshop Date</h4table></div>
+                            <div class="divTableCell"><h4table><lti><b>October 28, 2017</b></lti> </h4table></div>
+                            </div>
+                            </div>
+                            </div>
+</ul>
+                        <div class="row">
+					<div class="col-sm-12">
+                            <p>* With these days, we hope to allow a sufficient time slot for re-submission of the unlucky ICCV papers.</p>
+                            </div>
+                            </div>
+					</div>
+                </div>
+			</section>
+
+			<!--===============================-->
+			<!--== Speakers ===================-->
+			<!--===============================-->
+			<section id="speakers" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="section-header text-center">
+							<h2>Our <b>speakers</b></h2>
+							<p>Our invited speakers come from top research institutions and companies around the globe, and are leading figures in the topics covered by the workshop. This diverse selection will prove valuable for academic as well as industry researchers and practitioners. Both practical and theoretical aspects of multiview 3D computer vision will be covered by the invited lecturers.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/speakers/andrew-fitzgibbon.jpg" alt="Andrew Fitzgibbon">
+							<div class="speaker-info">
+								<h3><b>Andrew</b><br> Fitzgibbon</h3>
+								<p>Principal Scientist<br>Microsoft Research</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a href="#" class="fa fa-facebook"></a></li>
+								<li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/speakers/michael-bronstein.jpg" alt="Michael Bronstein">
+							<div class="speaker-info">
+								<h3><b>Micheal</b><br> Bronstein</h3>
+								<p>Associate Professor<br>USI</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a href="#" class="fa fa-facebook"></a></li>
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/speakers/vladlen-koltun.jpg" alt="Vladlen Koltun">
+							<div class="speaker-info">
+								<h3><b>Vladlen</b><br> Koltun</h3>
+								<p>Principal Scientist<br>Intel</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a href="#" class="fa fa-facebook"></a></li>
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#koltun" class="fa fa-instagram"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/speakers/radu-horaud.jpg" alt="Radu Horaud">
+							<div class="speaker-info">
+								<h3><b>Radu</b><br> Horaud</h3>
+								<p>Senior Research Scientist<br>INRIA</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a href="#" class="fa fa-facebook"></a></li>
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/speakers/andreas-nuchter.jpg" alt="Andreas Nüchter">
+							<div class="speaker-info">
+								<h3><b>Andreas</b><br> Nüchter</h3>
+								<p>Professor<br>JMU Würtzburg</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="http://www7.informatik.uni-wuerzburg.de/mitarbeiter/nuechter/" class="fa fa-home"></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/andreas-nuechter-866905/" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/speakers/konrad-schiendler.jpg" alt="Konrad Schindler">
+							<div class="speaker-info">
+								<h3><b>Konrad</b><br> Schindler</h3>
+								<p>Professor<br>ETH Zurich</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="#" class="fa fa-facebook"></a></li>
+								<li><a target="_blank" href="#" class="fa fa-twitter"></a></li>
+								<li><a target="_blank" href="#" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/speakers/zach.jpg" alt="Christopher Zach">
+							<div class="speaker-info">
+								<h3><b>Christopher</b><br> Zach</h3>
+								<p>Research<br>Toshiba Europe</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="#" class="fa fa-facebook"></a></li>
+								<li><a target="_blank" href="#" class="fa fa-twitter"></a></li>
+								<li><a target="_blank" href="#" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/speakers/luc-robert.jpg" alt="Luc Robert">
+							<div class="speaker-info">
+								<h3><b>Luc</b><br> Robert</h3>
+								<p>Research<br> Bentley</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="#" class="fa fa-facebook"></a></li>
+								<li><a target="_blank" href="#" class="fa fa-twitter"></a></li>
+								<li><a target="_blank" href="#" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12">
+						<button class="button button-icon pull-right">Show more <span class="fa fa-chevron-down"></span></button>
+					</div>
+				</div>
+			</section>
+			<!--==========-->
+
+        
+			<!--===============================-->
+			<!--== Schedule ===================-->
+			<!--===============================-->
+			<section id="schedule" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="section-header text-left">
+							<h2>The <b>schedule</b></h2>
+							<p>We have a packed and exciting day ahead of us! Our schedule is still tentative.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="content-tabs">
+							<div class="tab-content">
+								<div class="tab-pane fade in active" id="tab1">
+									<ul class="accordion">
+										<li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													08<sup>00</sup>
+												</span>
+												<h4 class="accordion-title">Opening Remarks</h4>
+											</a>
+                                            <div class="accordion-body">
+												<p>
+													Good morning everybody! We gladly welcome you to our first workshop, MVR3D 2017.
+												</p>
+											</div>
+										</li>
+										<li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													08<sup>15</sup>
+												</span>
+												<div class="schedule-speaker">
+													<img src="images/demo/speakers/luc-robert.jpg" alt="Luc Robert">
+												</div>
+												<h4 class="accordion-title">Invited talk by Luc Robert</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													Luc Robert graduated from Ecole Polytechnique in 1988, and obtained his PhD in 3D computer vision, in 1993, from the National Research Institute for Computer Sciences and Automatics (Inria, France). After a 1-year post-doc at Carnegie Mellon University (Pittsburgh, USA) working on 3D vision for autonomous vehicles, he joined Inria as a research scientist in 1995. In 1998 he co-founded REALVIZ, a startup bringing technology from the lab to the industry of digital content creation. During the following ten years he led the development of the REALVIZ technology and products, that became industry leaders on the markets of 3D digital effects and panoramic photography. After the acquisition of REALVIZ by Autodesk in 2008, Luc was driving reality capture technology development for the 123D Catch and ReCap products. In 2016, he joined the Bentley Systems team in charge of products and technology related to reality capture.<br>                                                    
+												</p>
+												<div class="schedule-speaker-list">
+													<b>Speakers:</b>
+													<div class="schedule-speaker">
+														<img src="images/demo/speakers/luc-robert.jpg" alt="Luc Robert">
+														<h4>Luc Robert</h4>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													09<sup>00</sup>
+												</span>
+												<div class="schedule-speaker">
+													<img src="images/demo/speakers/michael-bronstein.jpg" alt="Michael Bronstein">
+												</div>
+												<h4 class="accordion-title">Invited talk by Michael Bronstein</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													In 2010, Michael Bronstein has joined the Institute of Computational Science in the Faculty of Informatics at the University of Lugano (USI), Switzerland, where he is currently an associate professor leading a research group on geometric and visual computing. Since 2012, he also serves as research scientist and principal engineer at the Perceptual Computing lab at Intel. Since 2016, he is appointed as associate professor of Applied Mathematics at Tel Aviv University in Israel. He also held visiting appointments at Politecnico di Milano (2008), Stanford university (2009), INRIA (2009), Technion (2013, 2014), University of Verona (2010, 2014), and Tel Aviv University (2015). His main research interests are theoretical and computational methods in spectral and metric geometry and their application to problems in computer vision, pattern recognition, shape analysis, computer graphics, image processing, and machine learning. Most recently, he is interested in deep learning on non-Euclidean structured data such as graphs and manifolds. Michael Bronstein has authored over 100 publications in leading journals and conferences, over 20 patents, the research monograph Numerical geometry of non-rigid shapes (Springer, 2008) and edited four books. He is a Senior Member of IEEE, member of SIAM and EUROGRAPHICS, and ACM Distinguished Speaker. His research was recognized by numerous awards, including the Kasher prize (2002), Thomas Schwartz award (2002), Hershel Rich Technion Innovation award and the Gensler prize for research on face recognition (2003), the Copper Mountain Conference on Multigrid Methods Best Paper award (2005), the Adams Fellowship (2005), EUROGRAPHICS Service Award (2012), and SGP Best Paper Award (2016) 
+												</p>
+												<div class="schedule-speaker-list">
+													<b>Speakers:</b>
+													<div class="schedule-speaker">
+														<img src="images/demo/speakers/michael-bronstein.jpg" alt="Michael Bronstein">
+														<h4>Michael Bronstein</h4>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													09<sup>45</sup>
+												</span>
+												<h4 class="accordion-title">Coffee Break</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													We are proudly serving Italian coffee!
+												</p>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													10<sup>00</sup>
+												</span>
+												<h4 class="accordion-title">Oral Session</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													We look forward to novel and exciting oral presentations of a subset of the accepted papers.
+												</p>
+											</div>
+										</li>
+										<li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													10<sup>45</sup>
+												</span>
+												<div class="schedule-speaker">
+													<img src="images/demo/speakers/vladlen-koltun.jpg" alt="Vladlen Koltun">
+												</div>
+												<h4 class="accordion-title">Invited talk by Vladlen Koltun</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													Vladlen Koltun is the Director of the Intel Visual Computing Lab. He received a PhD in 2002 for new results in theoretical computational geometry, spent three years at UC Berkeley as a postdoc in the theory group, and joined the Stanford Computer Science faculty in 2005 as a theoretician. He switched to research in visual computing in 2007 and joined Intel as a Principal Researcher in 2015 to establish the Visual Computing Lab.
+												</p>
+												<div class="schedule-speaker-list">
+													<b>Speakers:</b>
+													<div class="schedule-speaker">
+														<img src="images/demo/speakers/vladlen-koltun.jpg" alt="Vladlen Koltun">
+														<h4>Vladlen Koltun</h4>
+													</div>
+												</div>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													11<sup>30</sup>
+												</span>
+												<div class="schedule-speaker">
+													<img src="images/demo/speakers/konrad-schiendler.jpg" alt="Konrad Schindler">
+												</div>
+												<h4 class="accordion-title">Invited talk by Konrad Schindler</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													Konrad Schindler received the Diplomingenieur (M.tech) degree in photogrammetry from Vienna University of Technology, Austria in 1999, and a PhD in computer science from Graz University of Technology, Austria, in 2003. He has worked as a photogrammetric engineer in the private industry, and has held researcher positions at Graz University of Technology, Monash University, and ETH Zurich. He became assistant professor of Image Understanding at TU Darmstadt in 2009, and since 2010 has been a tenured professor of Photogrammetry and Remote Sensing at ETH Zurich. His research interests lie in the field of computer vision, photogrammetry, and remote sensing, with a focus on image understanding and 3d reconstruction. Konrad has been president of ISPRS Technical Commission III “Photogrammetric Computer Vision and Image Analysis” for the period 2012-2016. He has received several awards, including the  U. V. Helava Award 2012 for the best paper published in the ISPRS Journal 2008-2011 (with A. Ess, B. Leibe and L. Van Gool), and a honorable mentions for the Marr Prize at ICCV 2013 (with C. Vogel and S. Roth).
+												</p>
+												<div class="schedule-speaker-list">
+													<b>Speakers:</b>
+													<div class="schedule-speaker">
+														<img src="images/demo/speakers/konrad-schiendler.jpg" alt="Konrad Schindler">
+														<h4>Konrad Schindler</h4>
+													</div>
+												</div>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													12<sup>15</sup>
+												</span>
+												<h4 class="accordion-title">Lunch Break</h4>
+											</a>
+                                            <div class="accordion-body">
+												<p>
+													The smell of that delicious Italian cusine is irresistable.
+												</p>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													13<sup>15</sup>
+												</span>
+												<h4 class="accordion-title">Poster Session</h4>
+											</a>
+                                            <div class="accordion-body">
+												<p>
+													Those heated discussions and further networking...
+												</p>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													14<sup>15</sup>
+												</span>
+												<div class="schedule-speaker">
+													<img src="images/demo/speakers/andrew-fitzgibbon.jpg" alt="Andrew Fitzgibbon">
+												</div>
+												<h4 class="accordion-title">Invited talk by Andrew Fitzgibbon</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													Andrew Fitzgibbon is a scientist with HoloLens at Microsoft, Cambridge, UK. He is best known for his work on 3D vision, having been a core contributor to the Emmy-award-winning 3D camera tracker “boujou” (www.boujou.com) and Kinect for Xbox 360, but his interests are broad, spanning computer vision, graphics, machine learning, and even a little neuroscience. He has published numerous highly-cited papers, and received many awards for his work, including ten “best paper” prizes at various venues, the Silver medal of the Royal Academy of Engineering, and the BCS Roger Needham award. He is a fellow of the Royal Academy of Engineering, the British Computer Society, and the International Association for Pattern Recognition. Before joining Microsoft in 2005, he was a Royal Society University Research Fellow at Oxford University, having previously studied at Edinburgh University, Heriot-Watt University, and University College, Cork.
+												</p>
+												<div class="schedule-speaker-list">
+													<b>Speakers:</b>
+													<div class="schedule-speaker">
+														<img src="images/demo/speakers/andrew-fitzgibbon.jpg" alt="Andrew Fitzgibbon">
+														<h4>Andrew Fitzgibbon</h4>
+													</div>
+												</div>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													15<sup>00</sup>
+												</span>
+												<div class="schedule-speaker">
+													<img src="images/demo/speakers/radu-horaud.jpg" alt="Radu Horaud">
+												</div>
+												<h4 class="accordion-title">Invited talk by Radu Horaud</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													Radu Patrice Horaud holds a position of director of research at INRIA Grenoble Rhône-Alpes, France. He is the founder and director of the PERCEPTION team. Radu’s research interests cover computational vision, audio signal processing, audio-visual scene analysis, machine learning, and robotics. He is the author of over 200 scientific publications. Radu pioneered work in computer vision using range data (or depth images) and developed a number of principles and methods at the cross-roads of computer vision and robotics. In 2006, he started to develop audio-visual fusion and recognition techniques in conjunction with human-robot interaction. He is an area editor for the CVIU (Elsevier), a member of the advisory board for the International JRR (Sage), and an associated editor for the IJCV (Kluwer-Springer). In 2001 he was program co-chair of the IEEE Eighth ICCV and in 2015 he was program co-chair of the 17th ACM International Conference on Multimodal Interaction (ICMI’15). Radu Horaud was the scientific coordinator of the European Marie Curie network VISIONTRAIN (2005-2009), STREP projects POP (2006-2008) and HUMAVIPS (2010-2013), and the principal investigator of a collaborative project between INRIA and Samsung’s Advanced Institute of Technology (SAIT) on computer vision algorithms for 3D television (2010-2013). In 2013 he was awarded an ERC Advanced Grant for his five year project VHIA (2014-2019). In 2015 he received a three year grant (jointly with Florence Forbes) from Xerox University Affairs Committee.
+												</p>
+												<div class="schedule-speaker-list">
+													<b>Speakers:</b>
+													<div class="schedule-speaker">
+														<img src="images/demo/speakers/radu-horaud.jpg" alt="Radu Horaud">
+														<h4>Radu Horaud</h4>
+													</div>
+												</div>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													15<sup>45</sup>
+												</span>
+												<h4 class="accordion-title">Coffee Break</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													We are proudly serving Italian coffee!
+												</p>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													16<sup>00</sup>
+												</span>
+												<div class="schedule-speaker">
+													<img src="images/demo/speakers/andreas-nuchter.jpg" alt="Andreas Nüchter">
+												</div>
+												<h4 class="accordion-title">Invited talk by Andreas Nüchter</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													Andreas Nüchter is professor of computer science (telematics) at University of Würzburg. Before summer 2013 he headed as assistant professor the Automation group at Jacobs University Bremen. Prior he was a research associate at University of Osnabrück. Further past affiliations were with the Fraunhofer Institute for Autonomous Intelligent Systems (AIS, Sankt Augustin), the University of Bonn, from which he received the diploma degree in computer science in 2002 (best paper award by the German society of informatics (GI) for his thesis) and the Washington State University. He holds a doctorate degree (Dr. rer. nat) from University of Bonn. His thesis was shortlisted for the EURON PhD award. Andreas works on robotics and automation, cognitive systems and artificial intelligence. His main research interests include reliable robot control, 3D environment mapping, 3D vision, and laser scanning technologies, resulting in fast 3D scan matching algorithms that enable robots to perceive and map their environment in 3D representing the pose with 6 degrees of freedom. The capabilities of these robotic SLAM approaches were demonstrated at RoboCup Rescue competitions, ELROB and several other events. He is a member of the GI and the IEEE.
+												</p>
+												<div class="schedule-speaker-list">
+													<b>Speakers:</b>
+													<div class="schedule-speaker">
+														<img src="images/demo/speakers/andreas-nuchter.jpg" alt="Andreas Nüchter">
+														<h4>Andreas Nüchter</h4>
+													</div>
+												</div>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													16<sup>45</sup>
+												</span>
+												<div class="schedule-speaker">
+													<img src="images/demo/speakers/zach.jpg" alt="Christopher Zach">
+												</div>
+												<h4 class="accordion-title">Invited talk by Christopher Zach</h4>
+											</a>
+											<div class="accordion-body">
+												<p>
+													Andreas Nüchter is professor of computer science (telematics) at University of Würzburg. Before summer 2013 he headed as assistant professor the Automation group at Jacobs University Bremen. Prior he was a research associate at University of Osnabrück. Further past affiliations were with the Fraunhofer Institute for Autonomous Intelligent Systems (AIS, Sankt Augustin), the University of Bonn, from which he received the diploma degree in computer science in 2002 (best paper award by the German society of informatics (GI) for his thesis) and the Washington State University. He holds a doctorate degree (Dr. rer. nat) from University of Bonn. His thesis was shortlisted for the EURON PhD award. Andreas works on robotics and automation, cognitive systems and artificial intelligence. His main research interests include reliable robot control, 3D environment mapping, 3D vision, and laser scanning technologies, resulting in fast 3D scan matching algorithms that enable robots to perceive and map their environment in 3D representing the pose with 6 degrees of freedom. The capabilities of these robotic SLAM approaches were demonstrated at RoboCup Rescue competitions, ELROB and several other events. He is a member of the GI and the IEEE.
+												</p>
+												<div class="schedule-speaker-list">
+													<b>Speakers:</b>
+													<div class="schedule-speaker">
+														<img src="images/demo/speakers/zach.jpg" alt="Christopher Zach">
+														<h4>Christopher Zach</h4>
+													</div>
+												</div>
+											</div>
+										</li>
+                                        <li>
+											<a class="accordion-heading">
+												<span class="schedule-time accent">
+													17<sup>30</sup>
+												</span>
+												<h4 class="accordion-title">Closing Remarks</h4>
+											</a>
+                                            <div class="accordion-body">
+												<p>
+													Untill next time!
+												</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--==========-->
+
+
+        
+			<!--===============================-->
+			<!--== Partners ===================-->
+			<!--===============================-->
+			<section id="partners" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="section-header text-center">
+							<h2>Our <b>partners</b></h2>
+							<p>MVR3D 2017 is enabled by our generous sponsors.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="partners">
+						<div class="col-sm-6 col-md-3 partner">
+							<img src="images/demo/partners/siemens.png" alt="Siemens">
+						</div>
+						<div class="col-sm-6 col-md-3 partner">
+							<img src="images/demo/partners/intel.png" alt="Intel">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--==========-->
+
+<section id="speakers" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="section-header text-center">
+							<h2><b>Organizers</b></h2>
+							<p>Here are the humble people behind MVR3D 2017.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/organizers/tolga-birdal2.jpg" alt="Tolga Birdal">
+							<div class="speaker-info">
+								<h3><b>Tolga</b><br> Birdal</h3>
+								<p>PhD Candidate<br> TU Munich</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="www.tbirdal.me" class="fa fa-home"></a></li>
+                                <li><a target="_blank" href="http://campar.in.tum.de/Main/TolgaBirdal" class="fa fa-university"></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/tbirdal/" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/organizers/emanuele-rodola.jpg" alt="Emanuele Rodola">
+							<div class="speaker-info">
+								<h3><b>Emanuele</b><br> Rodola</h3>
+								<p>PostDoc Researcher<br> USI Lugano</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="https://sites.google.com/site/erodola/home" class="fa fa-home"></a></li>
+								<li><a target="_blank" href="#" class="fa fa-twitter"></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/erodola/" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/organizers/gul-varol.jpg" alt="Gul Varol">
+							<div class="speaker-info">
+								<h3><b>Gül</b><br> Varol</h3>
+								<p>PhD Candidate<br>INRIA</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="http://www.di.ens.fr/~varol/" class="fa fa-home"></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/gulvarol/" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/organizers/slobodan-ilic.jpg" alt="Slobodan Ilic">
+							<div class="speaker-info">
+								<h3><b>Slobodan</b><br> Ilic</h3>
+								<p>Principal Scientist<br>Siemens AG</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="http://campar.in.tum.de/Main/SlobodanIlic" class="fa fa-home"></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/slobodan-ilic-64321b1" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/organizers/umberto-castellani.png" alt="Umberto Castellini">
+							<div class="speaker-info">
+								<h3><b>Umberto</b><br> Castellini</h3>
+								<p>Assistant Professor<br>University of Verona</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="http://profs.sci.univr.it/~castella/" class="fa fa-home"></a></li>
+							</ul>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-3 ">
+						<div class="speaker">
+							<img src="images/demo/organizers/andrea-torsello.jpg" alt="Andrea Torsello">
+							<div class="speaker-info">
+								<h3><b>Andrea</b><br> Torsello</h3>
+								<p>Associate Professor<br>CF University Venice</p>
+							</div>
+							<ul class="speaker-contacts">
+								<li><a target="_blank" href="http://www.dsi.unive.it/~atorsell/index.html" class="fa fa-home"></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/andrea-torsello-35b3b1/" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12">
+						<button class="button button-icon pull-right">Show more <span class="fa fa-chevron-down"></span></button>
+					</div>
+				</div>
+			</section>
+			<!--==========-->
+
+			<!--===============================-->
+			<!--== FAQ & Testimonials =========-->
+			<!--===============================-->
+			<section id="faq" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-header text-left">
+							<h2><b>FAQ</b></h2>
+							<!--<p>Awesome section description goes here.</p>-->
+						</div>
+						<ul class="accordion">
+							<li>
+								<a class="accordion-heading">
+									<h4 class="accordion-title">How can I submit a manuscript?</h4>
+								</a>
+								<div class="accordion-body">
+									<p>
+										Paper submission is through <a href="#">CMT</a>.
+									</p>
+								</div>
+							</li>
+							<li>
+								<a class="accordion-heading">
+									<h4 class="accordion-title">Does MVR3D grant best paper awards?</h4>
+								</a>
+								<div class="accordion-body">
+									<p>
+										Yes. Best contribution is rewarded by an Intel RealSense 3D depth camera.
+									</p>
+								</div>
+							</li>
+							<li>
+								<a class="accordion-heading">
+									<h4 class="accordion-title">Can I attend without submitting?</h4>
+								</a>
+								<div class="accordion-body">
+									<p>
+										Our workshop is held in conjunction with International Conference of Computer Vision 2017. Workshop-inclusive ICCV registrations cover the attendance fees to the workshop. You are welcome to participate!
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!--==========-->
+
+
+
+			<!--===============================-->
+			<!--== News =======================-->
+			<!--===============================-->
+			<section id="news" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-header text-left">
+							<h2>Latest <b>news</b></h2>
+							<p>Awesome section description goes here.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="news-list">
+							<li class="news">
+								<span class="news-date">Nov 18</span>
+								<a href=""><h4>Just a month before our conference begins</h4></a>
+							</li>
+							<li class="news">
+								<span class="news-date">Nov 2</span>
+								<a href=""><h4>Things to do in Belgium before and after this Awesome Conference</h4></a>
+							</li>
+							<li class="news">
+								<span class="news-date">Oct 28</span>
+								<a href=""><h4>Interview with Awsome Conference speakers</h4></a>
+							</li>
+							<li class="news">
+								<span class="news-date">Oct 5</span>
+								<a href=""><h4>In 2 days tickets go on sale!</h4></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!--==========-->
+
+
+
+			<!--===============================-->
+			<!--== Location ===================-->
+			<!--===============================-->
+			<section id="location" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-sm-12 col-md-7">
+						<div class="map fit-left">
+							<div id="map-canvas"></div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-5">
+						<h2>Event <b>venue</b></h2>
+						<ul class="contact">
+							<li class="contact-info">
+								<em class="fa fa-map-marker"></em>
+								<span>Lungomare Guglielmo Marconi, 30, 30126 Lido di Venezia - Venice, Italy</span>
+							</li>
+							<li class="contact-info">
+								<em class="fa fa-envelope"></em>
+								<span>E-mail : multiview.workshop@gmail.com</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!--==========-->
+ 
+
+			<!--===============================-->
+			<!--== Subscribe & Register =======-->
+			<!--===============================-->
+<!--
+			<section id="register" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-sm-12 col-md-6">
+						<div class="section-header text-left">
+							<h2><b>Subscribe</b></h2>
+							<p>Awesome section description goes here.</p>
+						</div>
+						<form id="subscribe-form" method="post" class="form">
+							<input name="name" id="sname" type="text" placeholder="Name" required>
+							<input name="email" id="smail" type="email" placeholder="Email" required>
+							<button type="submit" name="submit" class="button button-active">Subscribe</button>
+						</form>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<div class="section-header text-left">
+							<h2><b>Register</b></h2>
+							<p>Awesome section description goes here.</p>
+						</div>
+						<form id="register-form" method="post" class="form">
+							<input name="name" id="name" type="text" placeholder="Name" required>
+							<input name="email" id="email" type="email" placeholder="Email" required>
+							<input name="telephone" id="telephone" type="tel" placeholder="Telephone">
+							<select name="ticket" id="ticket">
+								<option value="Silver">Silver</option>
+								<option value="Gold">Gold</option>
+								<option value="Platinum">Platinum</option>
+							</select>
+							<button type="submit" name="submit" class="button button-active">Register</button>
+						</form>
+					</div>
+				</div>
+			</section>
+-->
+			<!--==========-->
+
+
+
+			<!--===============================-->
+			<!--== Footer =====================-->
+			<!--===============================-->
+			<footer id="footer" class="footer">
+				<div class="row">
+					<div class="col-sm-8">
+
+						<!--== Social Icons ==-->
+						<ul class="social-icons">
+							<li><a href="#" class="fa fa-facebook"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-youtube"></a></li>
+							<li><a href="#" class="fa fa-linkedin"></a></li>
+						</ul>
+
+					</div>
+					<div class="col-sm-4 text-right">
+						<div class="copyrights">All Rights Reserved. © 2017 </div>
+					</div>
+				</div>
+			</footer>
+			<!--==========-->
+
+		</div>
+
+
+		<!--== Javascript Files ==-->
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script src="js/jquery-2.1.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/SmoothScroll.js"></script>
+		<script src="js/typed.js"></script>
+		<script src="js/jquery.nav.js"></script>
+		<script src="js/jquery.stellar.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/jquery.placeholder.js"></script>
+		<script src="js/jquery.accordion.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/fancySelect.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/gmap3.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
 </html>
