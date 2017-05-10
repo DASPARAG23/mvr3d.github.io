@@ -912,11 +912,13 @@ Speakers
 Partners
 --------------------*/
 .partners {
-	margin: 0 15px 30px 15px;
+	/*margin: 0;  15px 30px 15px; */
 	overflow: hidden;
+	margin: 0 auto;
 }
 
 .partner {
+	margin: 0 auto;
 	height: 130px;
 	padding: 15px;
 	text-align: center;
